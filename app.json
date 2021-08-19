@@ -1,7 +1,7 @@
 {
   "id": "1b58aca9-d231-4ebd-9c52-3de4bb86d764",
-  "name": "ALProject2",
-  "publisher": "Default publisher",
+  "name": "BC-AL-Snippets-DM001",
+  "publisher": "DM001",
   "version": "1.0.0.0",
   "brief": "",
   "description": "",
@@ -28,11 +28,11 @@
   "platform": "16.0.0.0",
   "idRanges": [
     {
-      "from": 50100,
-      "to": 50149
+      "from": 90000,
+      "to": 99999
     }
   ],
-  "contextSensitiveHelpUrl": "https://ALProject2.com/help/",
+  "contextSensitiveHelpUrl": "https://BC-AL-Snippets-DM001.com/help/",
   "showMyCode": true,
-  "runtime": "5.0"
+  "runtime": "7.0"
 }
