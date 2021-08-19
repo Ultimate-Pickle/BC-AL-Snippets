@@ -1,9 +1,9 @@
-tableextension 50100 CustTExt extends Customer
+tableextension 90000 CustTExt extends Customer
 {
     fields
     {
         // Add changes to table fields here
-        field(50101; "Customer Ext"; Text[20])
+        field(90000; "Customer Ext"; Text[20])
         {
 
             DataClassification = ToBeClassified;

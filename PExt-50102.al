@@ -1,11 +1,11 @@
-pageextension 50102 CustPExt extends "Customer Card"
+pageextension 90000 CustPExt extends "Customer Card"
 {
     layout
     {
         // Add changes to page layout here
         addlast(General)
         {
-            field("Customer Ext"; "Customer Ext")
+            field("Customer Ext"; rec."Customer Ext")
             {
                 caption = 'Customer Extension Code';
                 Visible = true;
@@ -14,7 +14,7 @@ pageextension 50102 CustPExt extends "Customer Card"
 
                 trigger onvalidate();
                 begin
-                    if "Customer Ext" = 'TEST' then
+                    if rec."Customer Ext" = 'TEST' then
                         message('This is a Test!');
                 end;
             }
