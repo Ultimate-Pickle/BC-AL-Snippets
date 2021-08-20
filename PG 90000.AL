@@ -26,7 +26,15 @@ page 90000 SnippetPage
                     SubPageLink = "Document Type" = field("Document Type"), "Document No." = field("No.");
                     ApplicationArea = all;
                 }
+                //usercontrol()
+                //{
+
+                //}
             }
+        }
+        area(FactBoxes)
+        {
+
         }
     }
 
