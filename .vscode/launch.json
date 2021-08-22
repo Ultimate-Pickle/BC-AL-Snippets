@@ -3,9 +3,11 @@
     "configurations": [
         {
             "name": "Cronus_Demo",
-            "request": "launch",
+            "request": "launch", //snapshotInitialize - allows for snapshot debugging (Ctrl + Shift + P and choose AL:Initialize Snapshot Debugging)
             "type": "al",
             "environmentType": "OnPrem",
+            "environmentName": "Sandbox",
+            "breakOnNext":"WebClient",
             "server": "http://com-dev-bcapp",
             "serverInstance": "BC160",
             "authentication": "Windows",
@@ -15,7 +17,8 @@
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
-            "tenant": "default"
+            "tenant": "default",
+            "sessionId": "0"
         }
     ]
 }
