@@ -2,23 +2,23 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Cronus_Demo",
+            "name": "Microsoft cloud sandbox",
             "request": "launch", //snapshotInitialize - allows for snapshot debugging (Ctrl + Shift + P and choose AL:Initialize Snapshot Debugging)
             "type": "al",
-            "environmentType": "OnPrem",
+            "environmentType": "Sandbox",
             "environmentName": "Sandbox",
-            "breakOnNext":"WebClient",
-            "server": "http://com-dev-bcapp",
-            "serverInstance": "BC160",
-            "authentication": "Windows",
-            "startupObjectId": 22,
+            //"breakOnNext":"WebClient",
+            //"server": "http://com-dev-bcapp",
+            //"serverInstance": "BC160",
+            //"authentication": "Windows",
+            "startupObjectId": 9022,
             "startupObjectType": "Page",
             "breakOnError": true,
             "launchBrowser": true,
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
-            "tenant": "default",
-            "sessionId": "0"
+            //"tenant": "default",
+            //"sessionId": "0"
         }
     ]
 }
