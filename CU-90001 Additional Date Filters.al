@@ -18,6 +18,18 @@ codeunit 90001 "Additional Date Filters"
                     ToDate := CalcDate('<CY-6>', Today);
                     Handled := true;
                 end;
+            'midsummer':
+                begin
+                    evaluate(FromDate, '24/06');
+                    evaluate(ToDate, '24/06');
+                    Handled := true;
+                end;
+            'midwinter':
+                begin
+                    evaluate(FromDate, '21/12');
+                    evaluate(ToDate, '21/12');
+                    Handled := true;
+                end;
         end;
     end;
 
